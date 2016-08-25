@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OO_PROG2_3
 {
+    //test class
     class Program
     {
         static void Main(string[] args)
@@ -37,13 +38,17 @@ namespace OO_PROG2_3
 
     class Dice
     {
+        //attribute
         private int faceup;
         private string strFaceUp;
+
+        //constructor
         public Dice()
         {
             Throw();
         }
 
+        //properties
         public int FaceUp
         {
             get
@@ -67,6 +72,7 @@ namespace OO_PROG2_3
         {
             return strFaceUp;
         }
+        //method
         public void Throw()
         {
             Random r = new Random();
